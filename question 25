@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+    abc(3);
+}
+void abc(int a)
+{
+    printf("%d",a);
+    if(a)
+    {
+        abc(a-1);
+    }
+    printf("%d",a);
+}
